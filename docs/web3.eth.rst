@@ -849,7 +849,7 @@ The following methods are available on the ``web3.eth`` namespace.
                 'from': web3.eth.coinbase,
                 'value': 1000
             })
-        '0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331'
+        HexBytes('0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331')
         >>> web3.eth.replace_transaction('0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331', {
                 'to': '0xd3CdA913deB6f67967B99D67aCDFa1712C293601',
                 'from': web3.eth.coinbase,
@@ -883,7 +883,7 @@ The following methods are available on the ``web3.eth`` namespace.
                 'from': web3.eth.coinbase,
                 'value': 1000
             })
-        '0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331'
+        HexBytes('0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331')
         >>> web3.eth.modify_transaction
         ('0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331', value=2000)
 
